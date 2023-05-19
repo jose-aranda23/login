@@ -1,0 +1,38 @@
+:root {
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light: #ffff;
+}
+
+body {
+    font-weight: 300;
+    color: var(--light) !important;
+}
+
+.bg-dark {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.25), rgba(5, 7, 12, 0.25)), url(/img/fondo.jpg);
+    background-size: cover;
+}
+
+.bg-dark-x {
+    background-color: var(--dark-x) !important;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.form-control,
+.btn {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.bton {
+    margin-left: 15px;
+}
+
+.botn {
+    margin-right: 15px;
+}
