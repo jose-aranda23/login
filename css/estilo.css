@@ -25,6 +25,7 @@ body {
 
 .form-control,
 .btn {
+    color: #ffff !important;
     min-height: 3.125rem;
     line-height: initial;
 }
