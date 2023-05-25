@@ -10,6 +10,12 @@ body {
     padding: 0;
 }
 
+.salir {
+    display: flex;
+    background-color: #ff000017;
+    justify-content: end;
+}
+
 .principal {
     display: flex;
     background-color: #ff000017;
